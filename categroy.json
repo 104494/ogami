@@ -1,1 +1,162 @@
-[{"children":[{"cid":"5F79D0D246AD4216AC04E9C5FAB3199E","cname":"薯片","desc":"薯片分类","parent":{"cid":"1"}},{"cid":"A8F423BB5C544EC49BB22952500884D3","cname":"爆米花","desc":"爆米花","parent":{"cid":"1"}}],"cid":"1","cname":"休闲零食","desc":"休闲零食"},{"children":[{"cid":"F5C091B3967442A2B35EFEFC4EF8746F","cname":"瓜子","desc":"瓜子","parent":{"cid":"2"}},{"cid":"C4DD8CA232864B31A367EE135D86382C","cname":"花生","desc":"花生","parent":{"cid":"2"}}],"cid":"2","cname":"坚果炒货","desc":"坚果炒货"},{"children":[{"cid":"65640549B80E40B1981CDEC269BFFCAD","cname":"饼干","desc":"饼干","parent":{"cid":"3"}},{"cid":"56AD72718C524147A2485E5F4A95A062","cname":"蛋糕","desc":"蛋糕","parent":{"cid":"3"}},{"cid":"757BDAB506A445EC8DEDA4CE04303B9F","cname":"面包","desc":"面包","parent":{"cid":"3"}}],"cid":"3","cname":"饼干蛋糕","desc":"饼干蛋糕"},{"children":[{"cid":"FAB7B7F7084F4D57A0808ADC61117683","cname":"猪肉脯","desc":"猪肉脯","parent":{"cid":"4"}},{"cid":"65830AB237EF428BAE9B7ADC78A8D1F6","cname":"牛肉干","desc":"牛肉干","parent":{"cid":"4"}},{"cid":"458795C27E7346A8A5F1B942319297E0","cname":"鸭脖子","desc":"鸭脖子","parent":{"cid":"4"}}],"cid":"4","cname":"肉干肉脯","desc":"肉干肉脯"},{"children":[{"cid":"F4FBD087EB054CA1896093F172AC33D9","cname":"红枣","desc":"红枣","parent":{"cid":"5"}},{"cid":"96F209F79DB242E9B99CC1B98FAB01DB","cname":"芒果干","desc":"芒果干","parent":{"cid":"5"}}],"cid":"5","cname":"蜜饯果干","desc":"蜜饯果干"},{"children":[{"cid":"A9CFBED0F77746C5BD751F2502FAB2CD","cname":"巧克力","desc":"巧克力","parent":{"cid":"6"}},{"cid":"ED641CF6C2F04D1CA83DCDB773A1B7FF","cname":"糖果","desc":"糖果","parent":{"cid":"6"}}],"cid":"6","cname":"糖果巧克力","desc":"糖果巧克力"},{"children":[{"cid":"4FA96877083541A58D81AF37A2909CA9","cname":"奶茶","desc":"奶茶","parent":{"cid":"84A855C3A30B473FB7F210A174D01610"}},{"cid":"58D261015B3D444DAA0BCDD73D9E964D","cname":"功能饮料","desc":"功能饮料","parent":{"cid":"84A855C3A30B473FB7F210A174D01610"}},{"cid":"D0B14584FC8847D7ACD1E80346E942D8","cname":"可乐","desc":"可乐","parent":{"cid":"84A855C3A30B473FB7F210A174D01610"}},{"cid":"760AB92FA56A48E8B6A6B2DCCADF24D8","cname":"酒类","desc":"酒类","parent":{"cid":"84A855C3A30B473FB7F210A174D01610"}}],"cid":"84A855C3A30B473FB7F210A174D01610","cname":"饮料","desc":"饮料"}]
+[{
+	"children": [{
+		"cid": "5F79D0D246AD4216AC04E9C5FAB3199E",
+		"cname": "薯片",
+		"desc": "薯片分类",
+		"parent": {
+			"cid": "1"
+		}
+	}, {
+		"cid": "A8F423BB5C544EC49BB22952500884D3",
+		"cname": "爆米花",
+		"desc": "爆米花",
+		"parent": {
+			"cid": "1"
+		}
+	}],
+	"cid": "1",
+	"cname": "休闲零食",
+	"desc": "休闲零食"
+}, {
+	"children": [{
+		"cid": "F5C091B3967442A2B35EFEFC4EF8746F",
+		"cname": "瓜子",
+		"desc": "瓜子",
+		"parent": {
+			"cid": "2"
+		}
+	}, {
+		"cid": "C4DD8CA232864B31A367EE135D86382C",
+		"cname": "花生",
+		"desc": "花生",
+		"parent": {
+			"cid": "2"
+		}
+	}],
+	"cid": "2",
+	"cname": "坚果炒货",
+	"desc": "坚果炒货"
+}, {
+	"children": [{
+		"cid": "65640549B80E40B1981CDEC269BFFCAD",
+		"cname": "饼干",
+		"desc": "饼干",
+		"parent": {
+			"cid": "3"
+		}
+	}, {
+		"cid": "56AD72718C524147A2485E5F4A95A062",
+		"cname": "蛋糕",
+		"desc": "蛋糕",
+		"parent": {
+			"cid": "3"
+		}
+	}, {
+		"cid": "757BDAB506A445EC8DEDA4CE04303B9F",
+		"cname": "面包",
+		"desc": "面包",
+		"parent": {
+			"cid": "3"
+		}
+	}],
+	"cid": "3",
+	"cname": "饼干蛋糕",
+	"desc": "饼干蛋糕"
+}, {
+	"children": [{
+		"cid": "FAB7B7F7084F4D57A0808ADC61117683",
+		"cname": "猪肉脯",
+		"desc": "猪肉脯",
+		"parent": {
+			"cid": "4"
+		}
+	}, {
+		"cid": "65830AB237EF428BAE9B7ADC78A8D1F6",
+		"cname": "牛肉干",
+		"desc": "牛肉干",
+		"parent": {
+			"cid": "4"
+		}
+	}, {
+		"cid": "458795C27E7346A8A5F1B942319297E0",
+		"cname": "鸭脖子",
+		"desc": "鸭脖子",
+		"parent": {
+			"cid": "4"
+		}
+	}],
+	"cid": "4",
+	"cname": "肉干肉脯",
+	"desc": "肉干肉脯"
+}, {
+	"children": [{
+		"cid": "F4FBD087EB054CA1896093F172AC33D9",
+		"cname": "红枣",
+		"desc": "红枣",
+		"parent": {
+			"cid": "5"
+		}
+	}, {
+		"cid": "96F209F79DB242E9B99CC1B98FAB01DB",
+		"cname": "芒果干",
+		"desc": "芒果干",
+		"parent": {
+			"cid": "5"
+		}
+	}],
+	"cid": "5",
+	"cname": "蜜饯果干",
+	"desc": "蜜饯果干"
+}, {
+	"children": [{
+		"cid": "A9CFBED0F77746C5BD751F2502FAB2CD",
+		"cname": "巧克力",
+		"desc": "巧克力",
+		"parent": {
+			"cid": "6"
+		}
+	}, {
+		"cid": "ED641CF6C2F04D1CA83DCDB773A1B7FF",
+		"cname": "糖果",
+		"desc": "糖果",
+		"parent": {
+			"cid": "6"
+		}
+	}],
+	"cid": "6",
+	"cname": "糖果巧克力",
+	"desc": "糖果巧克力"
+}, {
+	"children": [{
+		"cid": "4FA96877083541A58D81AF37A2909CA9",
+		"cname": "奶茶",
+		"desc": "奶茶",
+		"parent": {
+			"cid": "84A855C3A30B473FB7F210A174D01610"
+		}
+	}, {
+		"cid": "58D261015B3D444DAA0BCDD73D9E964D",
+		"cname": "功能饮料",
+		"desc": "功能饮料",
+		"parent": {
+			"cid": "84A855C3A30B473FB7F210A174D01610"
+		}
+	}, {
+		"cid": "D0B14584FC8847D7ACD1E80346E942D8",
+		"cname": "可乐",
+		"desc": "可乐",
+		"parent": {
+			"cid": "84A855C3A30B473FB7F210A174D01610"
+		}
+	}, {
+		"cid": "760AB92FA56A48E8B6A6B2DCCADF24D8",
+		"cname": "酒类",
+		"desc": "酒类",
+		"parent": {
+			"cid": "84A855C3A30B473FB7F210A174D01610"
+		}
+	}],
+	"cid": "84A855C3A30B473FB7F210A174D01610",
+	"cname": "饮料",
+	"desc": "饮料"
+}]
