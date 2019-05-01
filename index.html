@@ -25,7 +25,7 @@
 			</header>
 			<!-- End header-->
 			<div id="mainer">
-				
+
 			</div>
 			<!-- End mainer -->
 			<div class="partner" id="partner">
@@ -37,18 +37,10 @@
 			</footer>
 			<!-- End footer-->
 		</div>
+
 		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/jquery-ui.min.js"></script>
-		<script src="assets/js/jquery.countdown.min.js"></script>
-		<script src="assets/js/slick.min.js"></script>
-		<script src="assets/js/jquery.easing.js"></script>
-		<script src="assets/js/jquery.scrollUp.min.js"></script>
-		<script src="assets/js/jquery.zoom.min.js"></script>
-		<script src="assets/js/parallax.js"></script>
-		<script src="assets/js/jquery.fancybox.js"></script>
-		<script src="assets/js/numscroller-1.0.js"></script>
-		<script src="assets/js/vanilla-tilt.min.js"></script>
 		<script src="assets/js/main.js"></script>
+
 		<script>
 			$(function() {
 				$.extend({
@@ -66,7 +58,7 @@
 					getUrlVar: function(name) {
 						return $.getUrlVars()[name];
 					}
-				});				
+				});
 				var target = $.getUrlVar('target');
 				//这里开始加载网页的各个模块
 				$("#header").load('header.html');
@@ -74,19 +66,37 @@
 				$("#partner").load('partner.html');
 				if (target != undefined) {
 					mainerload(target);
-				}	else {
+				} else {
 					$("#mainer").load('mainer.html');
 				}
-				
+				loadJS("assets/js/jquery-ui.min.js");
+				loadJS("assets/js/jquery.countdown.min.js");
+				loadJS("assets/js/slick.min.js");
+				loadJS("assets/js/jquery.easing.js");
+				loadJS("assets/js/jquery.scrollUp.min.js");
+				loadJS("assets/js/jquery.zoom.min.js");
+				loadJS("assets/js/parallax.js");
+				loadJS("assets/js/jquery.fancybox.js");
+				loadJS("assets/js/numscroller-1.0.js");
+				loadJS("assets/js/vanilla-tilt.min.js");
 				// 一下是模板固有的加载图片方法
 				var sence = document.getElementById('img-block');
 				var parallaxInstance = new Parallax(sence, {
 					hoverOnly: true,
 				});
+
 			})
-			function mainerload(target){
+
+			function mainerload(target) {
 				$("#mainer").load(target);
 			}
+
+			function loadJS(url) {
+				var js = document.createElement("script");
+				js.src = url;
+				$("body").append(js);
+			}
 		</script>
+
 	</body>
 </html>
